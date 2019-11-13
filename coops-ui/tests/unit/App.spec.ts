@@ -8,6 +8,7 @@ import { createLocalVue, shallowMount } from '@vue/test-utils'
 import axios from '@/axios-auth'
 import store from '@/store/store'
 import App from '@/App.vue'
+import { EntityTypes } from '@/enums'
 
 Vue.use(Vuetify)
 Vue.use(Vuelidate)
