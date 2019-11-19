@@ -82,7 +82,7 @@ def create_office(business, addresses, office_type):
         business.offices = []
 
     business.offices.append(office)
-    
+
 
 def add_business_addresses(business, offices_json):
     for office_type in offices_json:
