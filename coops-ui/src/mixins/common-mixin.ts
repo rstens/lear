@@ -35,8 +35,8 @@ export default class CommonMixin extends Vue {
   /**
    * Compares two objects while omitting specified properties from the comparison.
    *
-   * @param addressA The first object to compare
-   * @param addressB The second object to compare
+   * @param objA The first object to compare
+   * @param objB The second object to compare
    * @param prop The property to omit during the comparison
    *
    * @return boolean A boolean indicating a match of objects
